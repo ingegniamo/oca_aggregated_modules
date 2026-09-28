@@ -1,0 +1,19 @@
+[project]
+name = "odoo-addons-oca-multi-company"
+version = "19.0.20260915.0"
+dependencies = [
+    "odoo-addon-account_invoice_inter_company==19.0.*",
+    "odoo-addon-base_multi_company==19.0.*",
+    "odoo-addon-calendar_event_type_multi_company==19.0.*",
+    "odoo-addon-mail_multicompany==19.0.*",
+    "odoo-addon-product_multi_company==19.0.*",
+    "odoo-addon-product_tax_multicompany_default==19.0.*",
+    "odoo-addon-purchase_sale_inter_company==19.0.*",
+    "odoo-addon-res_company_active==19.0.*",
+    "odoo-addon-res_company_search_view==19.0.*",
+]
+classifiers=[
+    "Programming Language :: Python",
+    "Framework :: Odoo",
+    "Framework :: Odoo :: 19.0",
+]
