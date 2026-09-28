@@ -1,0 +1,24 @@
+name: sync
+on:
+  schedule: [{cron: "0 4 * * *"}]
+  workflow_dispatch:
+  push:
+    paths: [repos.txt, sync.sh]
+permissions:
+  contents: write
+concurrency:
+  group: sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure git
+        run: |
+          git config user.name oca-sync
+          git config user.email sync@stesi.consulting
+      - id: sync
+        run: ./sync.sh
+      - if: steps.sync.outputs.changed == '1'
+        run: git push

@@ -1,0 +1,15 @@
+# <url> <branch> [module1,module2,...]
+# Third field: comma-separated modules to keep; omit it to mirror the whole repo.
+https://github.com/OCA/account-financial-reporting.git          19.0
+https://github.com/OCA/account-financial-tools.git              19.0
+https://github.com/OCA/account-payment.git                      19.0
+https://github.com/OCA/commission.git                           19.0
+https://github.com/OCA/multi-company.git                        19.0
+https://github.com/OCA/partner-contact.git                      19.0
+https://github.com/OCA/product-attribute.git                    19.0
+https://github.com/OCA/reporting-engine.git                     19.0
+https://github.com/OCA/server-tools.git                         19.0
+https://github.com/OCA/server-ux.git                            19.0
+https://github.com/OCA/stock-logistics-warehouse.git            19.0
+https://github.com/OCA/stock-logistics-workflow.git             19.0
+https://github.com/OCA/web.git                                  19.0
