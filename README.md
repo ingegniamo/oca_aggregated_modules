@@ -29,7 +29,10 @@ overwrites them.
 2. The script skips the line when the head and the module list match `.sync.lock`.
 3. Otherwise it fetches the head with `--depth 1` and writes its tree, or the listed modules
    only, into `/<repo name>`.
-4. One commit per repository, with `Upstream: <url>@<sha>` and `Modules: ...` in the body.
+4. One commit per repository. The body carries `Upstream: <url>@<sha>`, a GitHub link and
+   `Modules: ...`. The link opens `compare/<previous sha>...<new sha>` with every upstream
+   commit and file change since the last sync; the first sync of a repository links
+   `tree/<sha>` instead.
 
 A folder whose line left `repos.txt` gets removed in its own commit. A missing branch or a
 listed module absent upstream stops the run with an error.

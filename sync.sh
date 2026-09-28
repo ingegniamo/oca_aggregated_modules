@@ -18,6 +18,15 @@ while read -r url branch mods _; do
   [[ -n "$head" ]] || { echo "branch $branch missing on $url" >&2; exit 1; }
   wanted="$head ${mods:-*}"
   [[ "$(awk -v n="$name" '$1==n{print $2" "$3}' "$lock")" == "$wanted" ]] && { echo "skip $name"; continue; }
+  old=$(awk -v n="$name" '$1==n{print $2}' "$lock")
+  web=${url%.git}
+  if [[ -z "$old" ]]; then
+    link="Tree: $web/tree/$head"
+  elif [[ "$old" == "$head" ]]; then
+    link="Upstream unchanged, module list changed: $web/tree/$head"
+  else
+    link="Diff: $web/compare/$old...$head"
+  fi
 
   git fetch -q --depth 1 "$url" "refs/heads/$branch"
   if [[ -n "$mods" ]]; then
@@ -36,7 +45,7 @@ while read -r url branch mods _; do
   { grep -v "^$name " "$lock" || true; echo "$name $wanted"; } > "$lock.tmp"
   mv "$lock.tmp" "$lock"
   git add "$lock"
-  git commit -q -m "sync: $name $branch ${head:0:12}" -m "Upstream: $url@$head" -m "Modules: ${mods:-all}"
+  git commit -q -m "sync: $name $branch ${head:0:12}" -m "Upstream: $url@$head" -m "$link" -m "Modules: ${mods:-all}"
   echo "sync $name ${head:0:12}"
   changed=1
 done < repos.txt
