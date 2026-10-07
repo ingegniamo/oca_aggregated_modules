@@ -1,4 +1,3 @@
-account-financial-tools 92707c2f31b4fb3c39c81149fd10bc3f4af828fa *
 account-payment 5804fc18b27498854b53a8c80c2c749ebaeed250 *
 commission 74fcdc06111c6271faf12fb3c2e692da076271c2 *
 product-attribute 1c2d5e52b1d85dcdcd02b347f9f701b1684b63fd *
@@ -11,3 +10,4 @@ server-tools ff085d56f10e5d1dc68ef85482eb3fc34a5b62d2 *
 stock-logistics-workflow 19ab68ecb0cc0657dbef9646a9e8eb2e48af4815 *
 account-financial-reporting b26d1233d3d24536e51dddef416939a6cbf9a1fc *
 stock-logistics-warehouse 1df9ed8528a67ca6ea0bd75516d6505783c027e3 *
+account-financial-tools 31133bf90cbb832a6dc7c296b61c8ec47a49b9a9 *
