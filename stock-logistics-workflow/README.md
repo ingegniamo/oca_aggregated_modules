@@ -37,6 +37,7 @@ addon | version | maintainers | summary
 [scrap_reason_code](scrap_reason_code/) | 19.0.1.0.0 | <a href='https://github.com/bodedra'><img src='https://github.com/bodedra.png' width='32' height='32' style='border-radius:50%;' alt='bodedra'/></a> | Reason code for scrapping
 [stock_account_product_run_fifo_hook](stock_account_product_run_fifo_hook/) | 19.0.1.0.0 |  | Add more flexibility in the run fifo method.
 [stock_dangerous_goods](stock_dangerous_goods/) | 19.0.1.0.0 | <a href='https://github.com/mmequignon'><img src='https://github.com/mmequignon.png' width='32' height='32' style='border-radius:50%;' alt='mmequignon'/></a> | Adds utility fields to manage dangerous goods
+[stock_interwarehouse_transfer](stock_interwarehouse_transfer/) | 19.0.1.0.0 | <a href='https://github.com/GuillemCForgeFlow'><img src='https://github.com/GuillemCForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='GuillemCForgeFlow'/></a> | Push-style transfers between warehouses of the same company.
 [stock_landed_costs_purchase_auto](stock_landed_costs_purchase_auto/) | 19.0.1.0.1 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Stock landed costs purchase auto
 [stock_lot_scrap](stock_lot_scrap/) | 19.0.1.0.0 |  | This module adds a button in Production Lot/Serial Number view form to Scrap all products contained.
 [stock_move_line_expiration_date_required](stock_move_line_expiration_date_required/) | 19.0.1.0.0 |  | Stock Move Line Expiration Date Required
@@ -60,6 +61,7 @@ addon | version | maintainers | summary
 [stock_picking_line_sequence](stock_picking_line_sequence/) | 19.0.1.0.1 |  | Manages the order of stock moves by displaying its sequence
 [stock_picking_move_line_no_print](stock_picking_move_line_no_print/) | 19.0.1.0.1 | <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> <a href='https://github.com/chienandalu'><img src='https://github.com/chienandalu.png' width='32' height='32' style='border-radius:50%;' alt='chienandalu'/></a> | Hide operations in delivery slips
 [stock_picking_origin_reference](stock_picking_origin_reference/) | 19.0.1.0.0 |  | Add clickable button to the Transfer Source Document.
+[stock_picking_origin_state](stock_picking_origin_state/) | 19.0.1.0.0 |  | Expose the aggregated state of the origin pickings on a transfer
 [stock_picking_purchase_order_link](stock_picking_purchase_order_link/) | 19.0.1.0.0 |  | Link between picking and purchase order
 [stock_picking_reservation_policy](stock_picking_reservation_policy/) | 19.0.1.0.0 | <a href='https://github.com/ivantodorovich'><img src='https://github.com/ivantodorovich.png' width='32' height='32' style='border-radius:50%;' alt='ivantodorovich'/></a> | Reserve a transfer's moves all-or-nothing instead of partially.
 [stock_picking_return_empty_package](stock_picking_return_empty_package/) | 19.0.1.0.0 |  | Ensure that only package content is put in stock during a picking return
