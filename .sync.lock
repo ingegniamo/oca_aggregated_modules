@@ -3,7 +3,6 @@ reporting-engine b9e8c6cdd2d106614eddaf81bd78f487ae35db45 *
 server-ux 2e040168c4ed27ac6e732c68516ca47781eb1a0f *
 account-financial-reporting f48b4ea777c444256aa1c215ec3117d604b5feff *
 stock-logistics-workflow c860d254f2ee1bb19ddb22a8622cea6898b6d237 *
-multi-company dcc64e0a91632c197ab866687da852d25fd422e0 *
 product-attribute 855af8c8d2ee254e811de78adbb6c20819dbfa4d *
 stock-logistics-warehouse d6ec4ca727faffe18d7ec2325b47d31b56671ec8 *
 commission ee94c4b4cb4bbcc69fd1487f3b4d9d9385643606 *
@@ -11,3 +10,4 @@ partner-contact ec30dcf74b574fbbaa45487aca0bd2448aee2725 *
 server-tools 61f4f54f005d17b9ee813080a62dc8617656b809 *
 web 72c1f9725ff3af801b72ea2bd3d20daef54613e5 *
 account-financial-tools 2cb90fc8fd99ef1eace0a285e041efe51694c530 *
+multi-company 31a8241fbb50ada8427a9c0742d105b1973657c1 *
