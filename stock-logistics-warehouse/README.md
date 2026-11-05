@@ -28,9 +28,9 @@ addon | version | maintainers | summary
 [stock_demand_estimate](stock_demand_estimate/) | 19.0.1.1.0 |  | Allows to create demand estimates.
 [stock_demand_estimate_matrix](stock_demand_estimate_matrix/) | 19.0.1.0.0 |  | Allows to create demand estimates.
 [stock_inventory](stock_inventory/) | 19.0.1.1.0 |  | Allows to do an easier follow up of the Inventory Adjustments
-[stock_inventory_discrepancy](stock_inventory_discrepancy/) | 19.0.1.0.0 |  | Adds the capability to show the discrepancy of every line in an inventory and to block the inventory validation when the discrepancy is over a user defined threshold.
+[stock_inventory_discrepancy](stock_inventory_discrepancy/) | 19.0.1.0.1 |  | Adds the capability to show the discrepancy of every line in an inventory and to block the inventory validation when the discrepancy is over a user defined threshold.
 [stock_inventory_justification](stock_inventory_justification/) | 19.0.1.1.0 | <a href='https://github.com/rousseldenis'><img src='https://github.com/rousseldenis.png' width='32' height='32' style='border-radius:50%;' alt='rousseldenis'/></a> <a href='https://github.com/ThomasBinsfeld'><img src='https://github.com/ThomasBinsfeld.png' width='32' height='32' style='border-radius:50%;' alt='ThomasBinsfeld'/></a> | This module allows to set justification on inventories
-[stock_inventory_lockdown](stock_inventory_lockdown/) | 19.0.1.0.0 |  | Lock down stock locations during inventories.
+[stock_inventory_lockdown](stock_inventory_lockdown/) | 19.0.1.0.1 |  | Lock down stock locations during inventories.
 [stock_inventory_lockdown_product](stock_inventory_lockdown_product/) | 19.0.1.0.0 |  | Lock down stock locations during inventories for inventoried products
 [stock_location_is_sublocation](stock_location_is_sublocation/) | 19.0.1.0.0 |  | Add method to check stock location is sublocation
 [stock_location_lockdown](stock_location_lockdown/) | 19.0.1.0.0 |  | Prevent to add stock on locked locations
@@ -48,6 +48,7 @@ addon | version | maintainers | summary
 [stock_vlm_mgmt](stock_vlm_mgmt/) | 19.0.1.0.1 | <a href='https://github.com/chienandalu'><img src='https://github.com/chienandalu.png' width='32' height='32' style='border-radius:50%;' alt='chienandalu'/></a> | Light self contained alternative for VLM integrations
 [stock_vlm_mgmt_kardex](stock_vlm_mgmt_kardex/) | 19.0.1.0.0 | <a href='https://github.com/chienandalu'><img src='https://github.com/chienandalu.png' width='32' height='32' style='border-radius:50%;' alt='chienandalu'/></a> | Light alternative for Kardex VLM integrations
 [stock_warehouse_calendar](stock_warehouse_calendar/) | 19.0.1.0.0 | <a href='https://github.com/JordiBForgeFlow'><img src='https://github.com/JordiBForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='JordiBForgeFlow'/></a> | Adds a calendar to the Warehouse
+[stock_warehouse_out_pull](stock_warehouse_out_pull/) | 19.0.1.0.0 |  | Restore delivery pull rules as in Odoo <= 17.0
 [stock_warehouse_security](stock_warehouse_security/) | 19.0.1.0.0 | <a href='https://github.com/petrus-v'><img src='https://github.com/petrus-v.png' width='32' height='32' style='border-radius:50%;' alt='petrus-v'/></a> | Restrict user access in multi-warehouse environment
 
 [//]: # (end addons)
