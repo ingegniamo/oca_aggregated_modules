@@ -25,7 +25,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[product_customerinfo_picking](product_customerinfo_picking/) | 19.0.1.0.0 |  | This module makes the product customer code visible in the stock moves of a picking.
+[product_customerinfo_picking](product_customerinfo_picking/) | 19.0.1.0.1 |  | This module makes the product customer code visible in the stock moves of a picking.
 [purchase_stock_picking_backorder_policy](purchase_stock_picking_backorder_policy/) | 19.0.1.0.0 | <a href='https://github.com/ivantodorovich'><img src='https://github.com/ivantodorovich.png' width='32' height='32' style='border-radius:50%;' alt='ivantodorovich'/></a> | Carry the backorder policy from the vendor and purchase order to its receipts.
 [purchase_stock_picking_invoice_link](purchase_stock_picking_invoice_link/) | 19.0.1.0.0 |  | Adds link between purchases, pickings and invoices
 [sale_line_returned_qty](sale_line_returned_qty/) | 19.0.1.0.0 |  | Track returned quantity of sale order lines.
@@ -40,7 +40,7 @@ addon | version | maintainers | summary
 [stock_interwarehouse_transfer](stock_interwarehouse_transfer/) | 19.0.1.0.0 | <a href='https://github.com/GuillemCForgeFlow'><img src='https://github.com/GuillemCForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='GuillemCForgeFlow'/></a> | Push-style transfers between warehouses of the same company.
 [stock_landed_costs_purchase_auto](stock_landed_costs_purchase_auto/) | 19.0.1.0.1 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Stock landed costs purchase auto
 [stock_lot_scrap](stock_lot_scrap/) | 19.0.1.0.0 |  | This module adds a button in Production Lot/Serial Number view form to Scrap all products contained.
-[stock_move_line_expiration_date_required](stock_move_line_expiration_date_required/) | 19.0.1.0.0 |  | Stock Move Line Expiration Date Required
+[stock_move_line_expiration_date_required](stock_move_line_expiration_date_required/) | 19.0.1.0.1 |  | Stock Move Line Expiration Date Required
 [stock_move_valuation_usage](stock_move_valuation_usage/) | 19.0.1.0.0 |  | Trace where stock move valuation has been used, including quantities and values taken.
 [stock_no_negative](stock_no_negative/) | 19.0.1.0.1 |  | Disallow negative stock levels by default
 [stock_owner_restriction](stock_owner_restriction/) | 19.0.1.1.0 |  | Do not reserve quantity with assigned owner
@@ -48,7 +48,7 @@ addon | version | maintainers | summary
 [stock_picking_auto_create_lot](stock_picking_auto_create_lot/) | 19.0.1.1.0 | <a href='https://github.com/sergio-teruel'><img src='https://github.com/sergio-teruel.png' width='32' height='32' style='border-radius:50%;' alt='sergio-teruel'/></a> | Auto create lots for incoming pickings
 [stock_picking_auto_create_package](stock_picking_auto_create_package/) | 19.0.1.1.0 |  | Put all move lines in packs on validation.
 [stock_picking_back2draft](stock_picking_back2draft/) | 19.0.1.0.0 |  | Reopen canceled transfers
-[stock_picking_backorder_move_qty](stock_picking_backorder_move_qty/) | 19.0.1.0.0 | <a href='https://github.com/grindtildeath'><img src='https://github.com/grindtildeath.png' width='32' height='32' style='border-radius:50%;' alt='grindtildeath'/></a> | Allows to set quantity to backorder by move
+[stock_picking_backorder_move_qty](stock_picking_backorder_move_qty/) | 19.0.1.1.0 | <a href='https://github.com/grindtildeath'><img src='https://github.com/grindtildeath.png' width='32' height='32' style='border-radius:50%;' alt='grindtildeath'/></a> | Allows to set quantity to backorder by move
 [stock_picking_backorder_policy](stock_picking_backorder_policy/) | 19.0.1.1.0 | <a href='https://github.com/ivantodorovich'><img src='https://github.com/ivantodorovich.png' width='32' height='32' style='border-radius:50%;' alt='ivantodorovich'/></a> | Override the operation type backorder policy per transfer.
 [stock_picking_batch_extended](stock_picking_batch_extended/) | 19.0.1.0.1 | <a href='https://github.com/gurneyalex'><img src='https://github.com/gurneyalex.png' width='32' height='32' style='border-radius:50%;' alt='gurneyalex'/></a> <a href='https://github.com/carlosdauden'><img src='https://github.com/carlosdauden.png' width='32' height='32' style='border-radius:50%;' alt='carlosdauden'/></a> <a href='https://github.com/i-vyshnevska'><img src='https://github.com/i-vyshnevska.png' width='32' height='32' style='border-radius:50%;' alt='i-vyshnevska'/></a> | Allows manage a lot of pickings in batch
 [stock_picking_batch_group_by_date](stock_picking_batch_group_by_date/) | 19.0.1.0.0 | <a href='https://github.com/ivantodorovich'><img src='https://github.com/ivantodorovich.png' width='32' height='32' style='border-radius:50%;' alt='ivantodorovich'/></a> | Group batch pickings by date
