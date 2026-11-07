@@ -1,7 +1,6 @@
 account-payment 5804fc18b27498854b53a8c80c2c749ebaeed250 *
 account-financial-reporting f48b4ea777c444256aa1c215ec3117d604b5feff *
 server-tools a828058ebaca96a2320f8eb5172d86d10a8409e8 *
-server-ux b1d139bba74ed20639f6bb4d39de7320251ec6fc *
 web 80f85e9bc62858b36f1c18471afba48960305a72 *
 commission e8d8983ccc586c9f0cf27e6e0652beefeeae7ed3 *
 multi-company 695d847c05ada777064eff8ef42e57697bbd9b10 *
@@ -11,3 +10,4 @@ stock-logistics-workflow b04c78fc6391bfca005809c8e98da2b048be0338 *
 partner-contact b6f761282bd9d3f87a324642c935d12155369800 *
 product-attribute dc11b552a92ee5c394e49bc48b45d571e006393d *
 reporting-engine 2e3240211960f34bf6e07c1f0e849aaf249a6dfc *
+server-ux af19073dc86443bad8590811649a54172a81a1ef *
