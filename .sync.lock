@@ -1,6 +1,5 @@
 server-tools a828058ebaca96a2320f8eb5172d86d10a8409e8 *
 web 80f85e9bc62858b36f1c18471afba48960305a72 *
-multi-company 695d847c05ada777064eff8ef42e57697bbd9b10 *
 stock-logistics-warehouse e53710de6053e9fd13b13dc855be944b085f6c8c *
 reporting-engine 2e3240211960f34bf6e07c1f0e849aaf249a6dfc *
 server-ux af19073dc86443bad8590811649a54172a81a1ef *
@@ -11,3 +10,4 @@ account-financial-reporting 71804a80ab709296532535e6b87b2c2e642b5ac4 *
 account-financial-tools a92ee0ae219bd8565c4fb14b6fdf5510ddfaf9da *
 account-payment eb3888cdfdfae6e20c652abc99e06f556b104780 *
 commission 29356ad4a0d2422c88e5f346c0b3f1bbd32b8486 *
+multi-company 9afce331b676707cbd5e113a3edeb8904cd3eb73 *
