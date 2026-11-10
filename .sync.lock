@@ -1,5 +1,4 @@
 web 80f85e9bc62858b36f1c18471afba48960305a72 *
-stock-logistics-warehouse e53710de6053e9fd13b13dc855be944b085f6c8c *
 partner-contact f925eb6b42c6c87270bd524ea5a0aa8fcefc20ce *
 stock-logistics-workflow bb03506a306e5c81812361db8c682f60c4ec165a *
 account-financial-reporting 71804a80ab709296532535e6b87b2c2e642b5ac4 *
@@ -11,3 +10,4 @@ product-attribute afb3ca5ac3e08e0c8b7b797b30ec004ca013d926 *
 reporting-engine 9b300ab81265c3e2dd0994aa6f7ab258ba6f3fc5 *
 server-tools bc4ffc34c1a9cd0839d39ac580fbf675fcd6b287 *
 server-ux eefab21b6f80aa0abdffbbf25e263690702bf2a5 *
+stock-logistics-warehouse 8b69c14f1c32694a3662f46829e20653b67088b4 *
