@@ -1,5 +1,4 @@
 stock-logistics-workflow bb03506a306e5c81812361db8c682f60c4ec165a *
-server-tools bc4ffc34c1a9cd0839d39ac580fbf675fcd6b287 *
 stock-logistics-warehouse 8b69c14f1c32694a3662f46829e20653b67088b4 *
 server-ux f38d73293f2d5bfdb3200a5482ea4564463ed849 *
 web 929c108a04819a40f2e5e9be2e2c40967cb7a2e9 *
@@ -11,3 +10,4 @@ multi-company 2992d5a5e7d4ef99817275305f3d71750779c14a *
 partner-contact 3b5cf8558e9dbe90a630566dc3319012c351c5df *
 product-attribute 5545a6849ad62e69e9d00dd50177a3b594a59230 *
 reporting-engine ba46b0da7be00f2b86e60df4b8f521a6fcb9235f *
+server-tools 94c428ef7f0334747ee22306f599832a1fefa346 *
