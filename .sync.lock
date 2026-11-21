@@ -1,4 +1,3 @@
-account-financial-reporting 94ad4583839c7a5e6d5cd0fd5f84f960cf37add8 *
 multi-company 2992d5a5e7d4ef99817275305f3d71750779c14a *
 reporting-engine ba46b0da7be00f2b86e60df4b8f521a6fcb9235f *
 stock-logistics-warehouse 2d5478025e03835031221183559abd9500b7516c *
@@ -11,3 +10,4 @@ stock-logistics-workflow 80d754ecec74815cef42c1caa25f41d18185d233 *
 account-financial-tools 837651fa356c8499648bb70617ef6914a70830d6 *
 product-attribute c28a25cec6109d25809538973f62e12001245a63 *
 web b25d75b921d007006468de68040a622121c0e396 *
+account-financial-reporting cb29a0138464ee2d0fb5cce410059b72b94a9e7d *
