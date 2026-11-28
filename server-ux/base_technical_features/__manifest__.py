@@ -3,11 +3,16 @@
 {
     "name": "Technical features group",
     "summary": "Access to technical features without activating debug mode",
-    "version": "19.0.1.0.0",
+    "version": "19.0.1.0.1",
     "category": "Usability",
     "website": "https://github.com/OCA/server-ux",
     "author": "Opener B.V., Odoo Community Association (OCA)",
     "data": ["security/res_groups.xml", "views/res_users.xml", "data/res_users.xml"],
     "license": "AGPL-3",
     "depends": ["base"],
+    "assets": {
+        "web.assets_backend": [
+            "base_technical_features/static/src/js/**",
+        ],
+    },
 }
